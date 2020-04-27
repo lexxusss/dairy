@@ -1,0 +1,44 @@
+
+.StripeElement {
+    border: initial;
+    outline: initial !important;
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    color: #47404f;
+    display: block;
+    width: 100%;
+    height: calc(1.9695rem + 2px);
+    padding: .375rem .75rem;
+    font-size: .813rem;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+.StripeElement--focus {
+    color: #665c70;
+    background-color: #fff;
+    border-color: #a679d2;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem
+    rgba(102,51,153,.25);
+}
+.StripeElement--invalid {
+    border-color: #fa755a
+}
+.StripeElement--webkit-autofill {
+    background-color: #f8f9fa !important;
+}
+
+.stripe-upgrade-form {
+    display: inline-block;
+}
+
+.CardField-child {
+    border: 1px solid black;
+}

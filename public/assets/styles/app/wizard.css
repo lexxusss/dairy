@@ -1,0 +1,8 @@
+
+.sw-theme-dots > ul.step-anchor::before {
+    display: none;
+}
+
+.border-success {
+    border: 1px solid #28a745 !important;
+}
